@@ -8,7 +8,9 @@ end
 
 # call your method here!
 
-hello_t() do
+
+array = ["Tim", "Tom", "Alex"]
+hello_t(array) do
   if name.start_with?("T")
     puts "Hi, #{name}"
   end
