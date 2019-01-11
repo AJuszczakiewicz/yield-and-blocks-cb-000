@@ -10,7 +10,7 @@ end
 
 
 array = ["Tim", "Tom", "Alex"]
-hello_t(array) do
+hello_t(name) do
   if name.start_with?("T")
     puts "Hi, #{name}"
   end
